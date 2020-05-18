@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SubscriptionPlanner</string>
+    <string name="confirm">Confirm</string>
+    <string name="choose_a_payment_date">Choose a payment date</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+</resources>

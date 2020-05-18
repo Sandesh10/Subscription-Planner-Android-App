@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="#4CAF50">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:text="Netflix"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_const"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="Due In"
+            android:textSize="10dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView_daysCount"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_const"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="10 days"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView_const1"
+            android:layout_below="@id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:text="$"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView_amount"
+            android:layout_below="@id/textView_name"
+            android:layout_toRightOf="@id/textView_const1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:text="9.99"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView_const2"
+            android:layout_below="@id/textView_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:text="Start Date :"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_below="@id/textView_amount"
+            android:layout_toRightOf="@id/textView_const2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:text="05/05/2019"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView_desc"
+            android:layout_below="@id/textView_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="2dp"
+            android:text="Premium account shared with XX"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/image_delete"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:paddingRight="5dp"
+            android:foregroundGravity="center_horizontal"
+            android:layout_below="@id/textView_daysCount"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_delete"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+

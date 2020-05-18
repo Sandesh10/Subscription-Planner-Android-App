@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="14dp"
+    tools:context=".Help">
+
+    <TextView
+        android:id="@+id/textView_helpTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions on using the app"
+        android:paddingTop="25dp"
+        android:gravity="center_horizontal"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView_helpDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView_helpTitle"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:justificationMode="inter_word"
+        android:textColor="@android:color/black"
+        android:text="Hello World!"/>
+</RelativeLayout>
